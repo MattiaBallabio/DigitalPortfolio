@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #211626;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+body
+{
+  user-select: none;
+}
+
+img
+{
+  pointer-events: none;
+}
+
+a:link,
+a:visited
+{
+  color: white;
+}
+
+.MattiaPicture
+{
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 5px solid white;
+}
+
+.NameTitle
+{
+  text-align: center;
+  font-size: 5cap;
+  font-family: "Caveat";
+}
+
+.WebsitesDiv
+{
+  overflow-x: scroll;
+  ;
+}
+
+.WebsitesTable
+{
+  font-size: 100;
+  border: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 60px;
+}
+
+.WebsitesTable
+td {
+  font-size: 16px;
+  height: 10px;
+  min-width: 100px;
+  text-align: center;
+}
