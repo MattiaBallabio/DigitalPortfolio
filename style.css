@@ -6,29 +6,25 @@ html {
   text-shadow: 2px 2px 4px black;
 }
 
-body
-{
+body {
   user-select: none;
+  font-family: 'Nunito', sans-serif;
 }
 
-img
-{
+img {
   pointer-events: none;
 }
 
 a:link,
-a:visited
-{
+a:visited {
   color: white;
 }
 
-a:hover
-{
+a:hover {
   color: yellow;
 }
 
-.MattiaPicture
-{
+.MattiaPicture {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -36,21 +32,18 @@ a:hover
   border: 5px solid white;
 }
 
-.NameTitle
-{
+.NameTitle {
   text-align: center;
   font-size: 5cap;
   font-family: "Caveat";
 }
 
-.WebsitesDiv
-{
+.WebsitesDiv {
   overflow-x: scroll;
   ;
 }
 
-.WebsitesTable
-{
+.WebsitesTable {
   font-size: 100;
   border: 1px;
   margin-left: auto;
@@ -58,8 +51,7 @@ a:hover
   min-width: 60px;
 }
 
-.WebsitesTable
-td {
+.WebsitesTable td {
   font-size: 16px;
   height: 10px;
   min-width: 100px;
